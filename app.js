@@ -8,7 +8,7 @@ const button = document.querySelector('button');
 
         tl.paused(true);
         tl.to(".overlay", {clipPath: 'circle(180%'})
-        tl.to("menu-container", {opacity: 1, y: '30px', stagger: 0.1}, "-=1")
+        tl.to(".menu-container", {opacity: 1, y: '30px', stagger: 0.1}, "-=1")
 
         button.addEventListener('click', () => {
             tl.play();
